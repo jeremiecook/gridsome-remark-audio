@@ -1,18 +1,18 @@
 {
-  "name": "gatsby-remark-audio",
+  "name": "gridsome-remark-audio",
   "version": "1.0.2",
-  "description": "A gatsby remark plugin for rendering HTML5 audio tags for local or remote audio files",
-  "main": "index.js",
+  "description": "A gridsome remark plugin for rendering HTML5 audio tags for local or remote audio files",
+  "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/porkloin/gatsby-remark-audio"
+    "url": "https://github.com/jeremiecook/gridsome-remark-audio"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-plugin",
+    "gridsome",
+    "gridsome-plugin",
     "remark",
     "audio"
   ],
