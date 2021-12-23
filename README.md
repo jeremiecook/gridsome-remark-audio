@@ -1,14 +1,14 @@
-## gatsby-remark-audio
+## @jeremiecook/gridsome-remark-audio
 
+Ported from [gatsby-remark-video](https://github.com/rehat101/gatsby-remark-video)
 
-### Forked from [gatsby-remark-video](https://github.com/rehat101/gatsby-remark-video)
-
-This is a Gatsby remark plugin that creates HTML5 audio tags from local or remote audio sources.
+This is a Gridsome remark plugin that creates HTML5 audio tags from local or remote audio sources.
 
 ## Installation
 
 ```
-npm install gatsby-remark-audio
+npm install https://github.com/jeremiecook/gridsome-remark-audio
+yarn add https://github.com/jeremiecook/gridsome-remark-audio
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ In your markdown:
 `audio: https://www.mytestaudiosource.com/test.mp3`
 ```
 
-Add the following in your `gatsby-config.js` (must be included under the `plugins` key on gatsby-transformer-remark)
+Add the following in your `gridsome-config.js` (must be included under the `plugins` key on gridsome-transformer-remark)
 ```javascript
 {
   resolve: `gatsby-transformer-remark`,
@@ -42,3 +42,8 @@ Add the following in your `gatsby-config.js` (must be included under the `plugin
   }
 }
 ```
+
+
+## Resources
+* https://github.com/rehat101/gatsby-remark-video
+* https://github.com/mrinalini-m/gridsome-remark-embed-snippet/

@@ -1,6 +1,6 @@
 {
-  "name": "gridsome-remark-audio",
-  "version": "1.0.2",
+  "name": "@jeremiecook/gridsome-remark-audio",
+  "version": "1.0.0",
   "description": "A gridsome remark plugin for rendering HTML5 audio tags for local or remote audio files",
   "main": "plugin.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "remark",
     "audio"
   ],
-  "author": "porkloin",
+  "author": "jeremiecook",
   "license": "MIT",
   "dependencies": {
     "unist-util-visit": "^1.4.0"
