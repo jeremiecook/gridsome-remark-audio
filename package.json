@@ -19,6 +19,6 @@
   "author": "jeremiecook",
   "license": "MIT",
   "dependencies": {
-    "unist-util-visit": "^1.4.0"
+    "unist-util-visit": "2.0.3"
   }
 }
